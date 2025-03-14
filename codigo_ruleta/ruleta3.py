@@ -96,6 +96,7 @@ def ruleta():
             saldo += ganancia - monto
             historial.append((monto, ganancia))
             print("Ganaste!" if ganancia else "Perdiste.")
-    
-   
-ruleta()
+
+    print(f"Saldo final :{saldo} coins")
+
+ruleta()        
